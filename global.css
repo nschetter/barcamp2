@@ -39,7 +39,7 @@ h3 {
 h4 {
   font-family: Arial, serif;
   font-size: 10px;
-  text=align: center;
+  text-align: center;
   color: white;
   margin-left: 35px;
   margin-right: 35px;
@@ -58,6 +58,9 @@ hr {
   margin-top: 90px;
   margin-bottom: 35px;
   color:gray;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 ul {
@@ -140,3 +143,35 @@ ul {
   margin-right: auto;
   display: block;
 }
+
+#aiga_block {
+  padding-top:3px;
+  height:60px;
+  width:100%;
+}
+
+#buttonlines {
+  display: block;
+  position: absolute;
+  overflow: auto;
+  width: 470px;
+  left: 50%;
+  right: 50%;
+  margin-top: 100px;
+  margin-left: -235px;
+  margin-right: -235px;
+}
+
+#bird_block {
+  position: relative;
+}
+
+#bird {
+  display: block;
+  position: relative;
+  top: 95px;
+  width: 55px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
